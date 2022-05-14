@@ -5,8 +5,7 @@
   "repository": "https://github.com/subhranshudas/verpkg.git",
   "license": "MIT",
   "scripts": {
-    "ci:version": "standard-version --branches main && git push --follow-tags origin main",
-    "ci:version:beta": "standard-version --branches main --prerelease beta && git push --follow-tags origin develop",
+    "ci:version": "standard-version --branches main && git push origin main --follow-tags",
     "ci:publish": "npm publish --access public"
   },
   "devDependencies": {
