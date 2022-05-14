@@ -1,6 +1,6 @@
 {
   "name": "verpkg",
-  "version": "0.0.1",
+  "version": "0.0.2-beta.0",
   "main": "index.js",
   "repository": "https://github.com/subhranshudas/verpkg.git",
   "license": "MIT",
